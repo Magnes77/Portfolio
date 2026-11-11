@@ -1,0 +1,368 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio Wiktora Cieplińskiego - uczeń technikum informatycznego i początkujący programista.">
+  <title>Wiktor Ciepliński | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">W<span>.</span>Ciepliński</a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Otwórz menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Start</a></li>
+        <li><a href="#about">O mnie</a></li>
+        <li><a href="#technologies">Technologie</a></li>
+        <li><a href="#projects">Projekty</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Strona główna -->
+    <section class="hero section" id="home">
+      <div class="container hero-content reveal">
+        <p class="eyebrow">Witaj na mojej stronie!</p>
+
+        <h1>Wiktor <span>Ciepliński</span></h1>
+
+        <h2>
+          Jestem <span id="typingText"></span><span class="cursor">|</span>
+        </h2>
+
+        <p class="hero-description">
+          Uczę się programowania, poznaję nowe technologie i tworzę
+          własne projekty. Na tej stronie możesz zobaczyć, czym się
+          interesuję i nad czym obecnie pracuję.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#projects">Moje projekty</a>
+          <a class="btn btn-secondary"
+             href="https://github.com/Magnes77"
+             target="_blank"
+             rel="noopener noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- O mnie -->
+    <section class="section" id="about">
+      <div class="container reveal">
+        <p class="section-label">01 — O MNIE</p>
+        <h2 class="section-title">Kilka słów o mnie</h2>
+
+        <div class="about-grid">
+
+          <div class="about-card">
+            <div class="about-icon">&lt;/&gt;</div>
+            <h3>Programowanie</h3>
+            <p>
+              Cześć, jestem Wiktor i uczę się w Technikum Nowoczesnych technologi nr 24 na kierunku technik informatyk.
+              Interesuję się programowaniem i tworzeniem stron internetowych.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon">01</div>
+            <h3>Rozwój</h3>
+            <p>
+              W wolnym czasie uczę się nowych rzeczy i tworzę własne
+              projekty. Chcę zdobywać coraz większe doświadczenie
+              i rozwijać się w kierunku programowania.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Technologie -->
+    <section class="section section-alt" id="technologies">
+      <div class="container reveal">
+        <p class="section-label">02 — TECHNOLOGIE</p>
+        <h2 class="section-title">Czego się uczę?</h2>
+
+        <div class="tech-grid">
+          <div class="tech-card">
+            <span>C++</span>
+            <small>Programowanie</small>
+          </div>
+
+          <div class="tech-card">
+            <span>Java</span>
+            <small>Programowanie</small>
+          </div>
+
+          <div class="tech-card">
+            <span>JavaScript</span>
+            <small>Strony internetowe</small>
+          </div>
+
+          <div class="tech-card">
+            <span>HTML</span>
+            <small>Tworzenie stron</small>
+          </div>
+
+          <div class="tech-card">
+            <span>CSS</span>
+            <small>Wygląd stron</small>
+          </div>
+
+          <div class="tech-card">
+            <span>Git</span>
+            <small>Kontrola wersji</small>
+          </div>
+
+          <div class="tech-card">
+            <span>GitHub</span>
+            <small>Projekty i kod</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projekty -->
+    <section class="section" id="projects">
+      <div class="container reveal">
+
+        <div class="section-heading-row">
+          <div>
+            <p class="section-label">03 — PROJEKTY</p>
+            <h2 class="section-title">Moje projekty</h2>
+          </div>
+
+          <a class="text-link"
+             href="https://github.com/Magnes77"
+             target="_blank"
+             rel="noopener noreferrer">Zobacz GitHub ↗</a>
+        </div>
+
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <div class="project-number">01</div>
+            <h3>Java Calculator</h3>
+            <p>
+              Prosty kalkulator konsolowy napisany w Javie.
+              Pozwala wykonywać podstawowe działania matematyczne.
+            </p>
+
+            <div class="tags">
+              <span>Java</span>
+              <span>Konsola</span>
+            </div>
+
+            <a href="https://github.com/Magnes77"
+               target="_blank"
+               rel="noopener noreferrer">Zobacz na GitHub →</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">02</div>
+            <h3>ToDo List</h3>
+            <p>
+              Lista zadań, w której można dodawać zadania
+              i zapisywać je w przeglądarce.
+            </p>
+
+            <div class="tags">
+              <span>JavaScript</span>
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+
+            <a href="https://github.com/Magnes77/ToDo-List-LocalStorage-"
+               target="_blank"
+               rel="noopener noreferrer">Zobacz na GitHub →</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">03</div>
+            <h3>Library Management System</h3>
+            <p>
+              Projekt systemu do zarządzania biblioteką
+              i przechowywania informacji o książkach.
+            </p>
+
+            <div class="tags">
+              <span>Java</span>
+            </div>
+
+            <a href="https://github.com/Magnes77/library-management-system"
+               target="_blank"
+               rel="noopener noreferrer">Zobacz na GitHub →</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">04</div>
+            <h3>Snake Game</h3>
+            <p>
+              Prosta wersja klasycznej gry Snake
+              napisana w języku C++.
+            </p>
+
+            <div class="tags">
+              <span>C++</span>
+              <span>Gra</span>
+            </div>
+
+            <a href="https://github.com/Magnes77/SnakeGameC-"
+               target="_blank"
+               rel="noopener noreferrer">Zobacz na GitHub →</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">05</div>
+            <h3>Blackjack</h3>
+            <p>
+              Projekt gry karcianej Blackjack,
+              którą tworzę w C++.
+            </p>
+
+            <div class="tags">
+              <span>C++</span>
+              <span>Gra</span>
+            </div>
+
+            <a href="https://github.com/Magnes77"
+               target="_blank"
+               rel="noopener noreferrer">Zobacz na GitHub →</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section class="section section-alt" id="contact">
+      <div class="container reveal">
+        <p class="section-label">04 — KONTAKT</p>
+        <h2 class="section-title">Skontaktuj się ze mną</h2>
+
+        <div class="contact-grid">
+
+          <div class="socials">
+
+            <a class="social-card"
+               href="mailto:wiktorcieplinski01@gmail.com">
+              <span>✉</span>
+              <div>
+                <strong>E-mail</strong>
+                <small>wiktorcieplinski01@gmail.com</small>
+              </div>
+            </a>
+
+            <a class="social-card"
+               href="https://github.com/Magnes77"
+               target="_blank"
+               rel="noopener noreferrer">
+              <span>GH</span>
+              <div>
+                <strong>GitHub</strong>
+                <small>github.com/Magnes77</small>
+              </div>
+            </a>
+
+            <a class="social-card"
+               href="https://x.com/w_magnescs"
+               target="_blank"
+               rel="noopener noreferrer">
+              <span>𝕏</span>
+              <div>
+                <strong>X</strong>
+                <small>@w_magnescs</small>
+              </div>
+            </a>
+
+            <a class="social-card"
+               href="https://www.facebook.com/Wiktor.Cieplinskii/"
+               target="_blank"
+               rel="noopener noreferrer">
+              <span>f</span>
+              <div>
+                <strong>Facebook</strong>
+                <small>Wiktor Cieplinskii</small>
+              </div>
+            </a>
+
+            <a class="social-card"
+               href="https://www.instagram.com/victor_cieplinski_"
+               target="_blank"
+               rel="noopener noreferrer">
+              <span>◎</span>
+              <div>
+                <strong>Instagram</strong>
+                <small>@victor_cieplinski_</small>
+              </div>
+            </a>
+
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <label for="name">Imię</label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Wpisz swoje imię"
+              required>
+
+            <label for="email">E-mail</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="twoj@email.com"
+              required>
+
+            <label for="message">Wiadomość</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              placeholder="Napisz wiadomość..."
+              required></textarea>
+
+            <button class="btn btn-primary" type="submit">
+              Wyślij wiadomość
+            </button>
+
+            <p class="form-note" id="formMessage"></p>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Przycisk powrotu na górę -->
+  <button class="back-to-top" id="backToTop"
+          aria-label="Wróć na górę">↑</button>
+
+  <!-- Stopka -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© <span id="year">2026</span> Wiktor Ciepliński</p>
+      <a href="#home">Wróć na górę ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
